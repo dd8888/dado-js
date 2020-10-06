@@ -1,27 +1,55 @@
 .contenedor {
-    display         : flex;
-    background-color: DodgerBlue;
-    justify-content : center;
+  display: flex;
+  background-color: DodgerBlue;
+  justify-content: center;
 }
 
 .contenedorBotones {
-    display         : flex;
-    background-color: DodgerBlue;
-    justify-content : center;
+  display: flex;
+  background-color: DodgerBlue;
+  justify-content: center;
 }
 
-.contenedor>div {
-    background-color: #f1f1f1;
-    margin          : 10px;
-    padding         : 100px;
-    font-size       : 30px;
+.contenedor > div {
+  display: inline-block;
+  padding: 100px;
+  border: 0.1em solid #000000;
+  margin: 7px;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #000000;
+  text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
+  background-color: #faa21d;
+  text-align: center;
+  font-size: 30px;
 }
 
-.contenedorBotones>button {
-    background-color: #f1f1f1;
-    margin          : 10px;
-    padding         : 60px;
-    font-size       : 30px;
+.contenedorBotones > button {
+  display: inline-block;
+  padding: 70px;
+  border: 0.1em solid #000000;
+  margin: 7px;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #000000;
+  text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
+  background-color: #ffffff;
+  text-align: center;
+  transition: all 0.15s;
+  background-color: #f1f1f1;
+  font-size: 30px;
 }
+.contenedorBotones > button:hover {
+  text-shadow: 0 0 2em rgba(255, 255, 255, 1);
+  color: #faa21d;
+  border-color: #faa21d;
+}
+
 
 /*# sourceMappingURL=/css.967bad95.css.map */
