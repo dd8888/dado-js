@@ -1,6 +1,10 @@
-.contenedor {
-  display: flex;
+body {
   background-color: DodgerBlue;
+  margin: 0;
+}
+.contenedor {
+  margin-top: 60px;
+  display: flex;
   justify-content: center;
 }
 
